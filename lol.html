@@ -1,1 +1,31 @@
-<p>bru</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>What the sigma?</title>
+<style>
+    /* Style to make the image cover the entire page */
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #fullpage-img {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* This ensures the image covers the entire viewport */
+        z-index: -1; /* Place the image behind other content */
+    }
+</style>
+</head>
+<body>
+    <!-- The image element -->
+    <img id="fullpage-img" src="https://media1.tenor.com/m/CjfqlOScovQAAAAd/roblox-nugget-roblox-man-face.gif" alt="Full Page Image">
+</body>
+</html>
